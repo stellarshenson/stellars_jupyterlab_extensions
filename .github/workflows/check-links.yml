@@ -1,0 +1,26 @@
+name: Check Links
+
+on:
+  push:
+    branches: main
+  pull_request:
+    branches: '*'
+  schedule:
+    - cron: '0 0 * * 0'  # Weekly on Sunday
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Check links
+      uses: jupyterlab/maintainer-tools/.github/actions/check-links@v1
+      with:
+        ignore_links: "https://www.npmjs.com/package/.* https://pepy.tech/.* https://static.pepy.tech/.*"

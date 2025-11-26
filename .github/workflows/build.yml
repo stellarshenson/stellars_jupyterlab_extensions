@@ -1,0 +1,75 @@
+name: Build
+
+on:
+  push:
+    branches: main
+  pull_request:
+    branches: '*'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.9', '3.10', '3.11', '3.12']
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install build tools
+      run: |
+        python -m pip install --upgrade pip
+        pip install build hatchling
+
+    - name: Build the package
+      run: |
+        set -eux
+        python -m build
+        ls -la dist/
+
+    - name: Verify package contents
+      run: |
+        set -eux
+        pip install dist/*.whl --dry-run
+
+    - name: Upload package artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: package-artifacts-py${{ matrix.python-version }}
+        path: dist/stellars_jupyterlab_extensions*
+        if-no-files-found: error
+
+  test-install:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - uses: actions/download-artifact@v4
+      with:
+        name: package-artifacts-py3.12
+
+    - name: Install package
+      run: |
+        set -eux
+        pip install stellars_jupyterlab_extensions*.whl
+
+    - name: Verify installation
+      run: |
+        set -eux
+        python -c "import stellars_jupyterlab_extensions; print(stellars_jupyterlab_extensions.__version__)"

@@ -1,10 +1,12 @@
 # Stellars JupyterLab Extensions
 
+[![GitHub Actions](https://github.com/stellarshenson/stellars_jupyterlab_extensions/actions/workflows/build.yml/badge.svg)](https://github.com/stellarshenson/stellars_jupyterlab_extensions/actions/workflows/build.yml)
 [![PyPI version](https://img.shields.io/pypi/v/stellars_jupyterlab_extensions.svg)](https://pypi.org/project/stellars_jupyterlab_extensions/)
 [![Total PyPI downloads](https://static.pepy.tech/badge/stellars_jupyterlab_extensions)](https://pepy.tech/project/stellars_jupyterlab_extensions)
 [![JupyterLab 4](https://img.shields.io/badge/JupyterLab-4-orange.svg)](https://jupyterlab.readthedocs.io/en/stable/)
+[![Brought To You By KOLOMOLO](https://img.shields.io/badge/Brought%20To%20You%20By-KOLOMOLO-00ffff?style=flat)](https://kolomolo.com)
 
-Metapackage that installs all Stellars JupyterLab extensions in one command.
+Metapackage that installs all Stellars JupyterLab extensions in one command. Because typing 13 separate `pip install` commands was getting tedious, and copy-paste is a skill best reserved for StackOverflow answers.
 
 ## Installation
 
