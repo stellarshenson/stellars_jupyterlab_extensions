@@ -9,3 +9,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 2. **Task - Add GitHub workflows**: Created `.github/workflows/build.yml` (multi-Python CI) and `check-links.yml` (documentation link checker), added GitHub Actions badge and self-deprecating humor to README<br>
     **Result**: CI infrastructure ready for GitHub
+
+3. **Task - Add extension links and publish**: Added GitHub repository links to all 13 extensions in README, published v1.0.3 to PyPI<br>
+    **Result**: Package live at https://pypi.org/project/stellars-jupyterlab-extensions/1.0.3/
