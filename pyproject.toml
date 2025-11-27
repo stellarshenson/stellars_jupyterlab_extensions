@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "stellars_jupyterlab_extensions"
-version = "1.0.3"
+version = "1.0.5"
 description = "Metapackage aggregating all Stellars JupyterLab extensions"
 readme = "README.md"
 license = {text = "MIT"}
@@ -28,6 +28,7 @@ classifiers = [
 dependencies = [
     "jupyterlab_close_all_tabs_extension",
     "jupyterlab_doc_reader_extension",
+	"jupyterlab_export_markdown_extension",
     "jupyterlab_fit_image_size_extension",
     "jupyterlab_github_markdown_alerts_extension",
     "jupyterlab_makefile_file_type_extension",
