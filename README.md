@@ -17,7 +17,9 @@ pip install stellars_jupyterlab_extensions
 ## Included Extensions
 
 - **[jupyterlab_close_all_tabs_extension](https://github.com/stellarshenson/jupyterlab_close_all_tabs_extension)** - Add "Close All Tabs" menu option
+- **[jupyterlab_colourful_tab_extension](https://github.com/stellarshenson/jupyterlab_colourful_tab_extension)** - Assign pastel colours to tabs for visual identification
 - **[jupyterlab_doc_reader_extension](https://github.com/stellarshenson/jupyterlab_doc_reader_extension)** - Open DOCX and RTF documents directly in JupyterLab
+- **[jupyterlab_export_markdown_extension](https://github.com/stellarshenson/jupyterlab_export_markdown_extension)** - Export markdown to PDF, DOCX, and HTML
 - **[jupyterlab_fit_image_size_extension](https://github.com/stellarshenson/jupyterlab_fit_image_size_extension)** - Auto-scale images to fit view while preserving original size for smaller images
 - **[jupyterlab_github_markdown_alerts_extension](https://github.com/stellarshenson/jupyterlab_github_markdown_alerts_extension)** - GitHub-style alert blocks in Markdown
 - **[jupyterlab_makefile_file_type_extension](https://github.com/stellarshenson/jupyterlab_makefile_file_type_extension)** - Makefile syntax highlighting and file type registration
@@ -27,6 +29,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_refresh_view_extension](https://github.com/stellarshenson/jupyterlab_refresh_view_extension)** - Refresh file content preserving scroll position
 - **[jupyterlab_tabular_data_viewer_extension](https://github.com/stellarshenson/jupyterlab_tabular_data_viewer_extension)** - Enhanced CSV/TSV, XLSX, Parquet viewer
 - **[jupyterlab_terminal_show_in_file_browser_extension](https://github.com/stellarshenson/jupyterlab_terminal_show_in_file_browser_extension)** - Show terminal working directory in file browser
+- **[jupyterlab_terraform_file_type_extension](https://github.com/stellarshenson/jupyterlab_terraform_file_type_extension)** - Terraform/HCL syntax highlighting and file type recognition
 - **[jupyterlab_vscode_icons_extension](https://github.com/stellarshenson/jupyterlab_vscode_icons_extension)** - VSCode file icons for JupyterLab file browser
 - **[jupyterlab_zip_extension](https://github.com/stellarshenson/jupyterlab_zip_extension)** - Archive compression and extraction in File Browser
 

@@ -12,3 +12,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 3. **Task - Add extension links and publish**: Added GitHub repository links to all 13 extensions in README, published v1.0.3 to PyPI<br>
     **Result**: Package live at https://pypi.org/project/stellars-jupyterlab-extensions/1.0.3/
+
+4. **Task - Add new extensions**: Added jupyterlab_colourful_tab_extension, jupyterlab_export_markdown_extension, and jupyterlab_terraform_file_type_extension to metapackage (now 16 extensions total)<br>
+    **Result**: Updated pyproject.toml dependencies and README with GitHub links
