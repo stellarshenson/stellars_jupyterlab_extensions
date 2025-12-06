@@ -15,3 +15,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 4. **Task - Add new extensions**: Added jupyterlab_colourful_tab_extension, jupyterlab_export_markdown_extension, and jupyterlab_terraform_file_type_extension to metapackage (now 16 extensions total)<br>
     **Result**: Updated pyproject.toml dependencies and README with GitHub links
+
+5. **Task - Bump Python requirement**: Changed minimum Python version from 3.9 to 3.10 due to jupyterlab_colourful_tab_extension requiring >=3.10<br>
+    **Result**: Updated pyproject.toml, README, and CI workflow matrix

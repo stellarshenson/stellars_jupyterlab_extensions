@@ -36,4 +36,4 @@ pip install stellars_jupyterlab_extensions
 ## Requirements
 
 - JupyterLab >= 4.0.0
-- Python >= 3.9
+- Python >= 3.10

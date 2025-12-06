@@ -4,11 +4,11 @@ build-backend = "hatchling.build"
 
 [project]
 name = "stellars_jupyterlab_extensions"
-version = "1.0.7"
+version = "1.0.8"
 description = "Metapackage aggregating all Stellars JupyterLab extensions"
 readme = "README.md"
 license = {text = "MIT"}
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 authors = [
     {name = "Konrad Jelen", email = "konrad.jelen+github@gmail.com"}
 ]
@@ -20,7 +20,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
