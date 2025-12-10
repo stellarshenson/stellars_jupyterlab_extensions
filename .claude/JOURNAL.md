@@ -18,3 +18,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 5. **Task - Bump Python requirement**: Changed minimum Python version from 3.9 to 3.10 due to jupyterlab_colourful_tab_extension requiring >=3.10<br>
     **Result**: Updated pyproject.toml, README, and CI workflow matrix
+
+6. **Task - Add more extensions** (v1.0.10): Added jupyterlab_fold_all_code_extension and jupyterlab_launcher_navigate_to_kernel_extension to metapackage (now 18 extensions total)<br>
+    **Result**: Published v1.0.10 to PyPI

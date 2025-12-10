@@ -32,6 +32,7 @@ dependencies = [
     "jupyterlab_fit_image_size_extension",
     "jupyterlab_fold_all_code_extension",
     "jupyterlab_github_markdown_alerts_extension",
+    "jupyterlab_launcher_navigate_to_kernel_extension",
     "jupyterlab_makefile_file_type_extension",
     "jupyterlab_markdown_insert_content_extension",
     "jupyterlab_mmd_to_png_extension",
