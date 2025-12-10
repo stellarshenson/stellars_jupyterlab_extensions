@@ -30,6 +30,7 @@ dependencies = [
     "jupyterlab_doc_reader_extension",
     "jupyterlab_export_markdown_extension",
     "jupyterlab_fit_image_size_extension",
+    "jupyterlab_fold_all_code_extension",
     "jupyterlab_github_markdown_alerts_extension",
     "jupyterlab_makefile_file_type_extension",
     "jupyterlab_markdown_insert_content_extension",
