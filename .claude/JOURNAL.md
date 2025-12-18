@@ -24,3 +24,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 7. **Task - Add drawio extension** (v1.0.13): Added jupyterlab_drawio_render_extension, temporarily disabled jupyterlab_launcher_navigate_to_kernel_extension<br>
     **Result**: Published v1.0.13 to PyPI with 18 active extensions
+
+8. **Task - Re-enable launcher extension**: Re-enabled jupyterlab_launcher_navigate_to_kernel_extension<br>
+    **Result**: Now 19 active extensions
