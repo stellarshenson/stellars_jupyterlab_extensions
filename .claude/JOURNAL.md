@@ -21,3 +21,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 6. **Task - Add more extensions** (v1.0.10): Added jupyterlab_fold_all_code_extension and jupyterlab_launcher_navigate_to_kernel_extension to metapackage (now 18 extensions total)<br>
     **Result**: Published v1.0.10 to PyPI
+
+7. **Task - Add drawio extension** (v1.0.13): Added jupyterlab_drawio_render_extension, temporarily disabled jupyterlab_launcher_navigate_to_kernel_extension<br>
+    **Result**: Published v1.0.13 to PyPI with 18 active extensions
