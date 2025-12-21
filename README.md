@@ -33,6 +33,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_tabular_data_viewer_extension](https://github.com/stellarshenson/jupyterlab_tabular_data_viewer_extension)** - Enhanced CSV/TSV, XLSX, Parquet viewer
 - **[jupyterlab_terminal_show_in_file_browser_extension](https://github.com/stellarshenson/jupyterlab_terminal_show_in_file_browser_extension)** - Show terminal working directory in file browser
 - **[jupyterlab_terraform_file_type_extension](https://github.com/stellarshenson/jupyterlab_terraform_file_type_extension)** - Terraform/HCL syntax highlighting and file type recognition
+- **[jupyterlab_trash_mgmt_extension](https://github.com/stellarshenson/jupyterlab_trash_mgmt_extension)** - Trash panel with storage display, restore, and empty bin
 - **[jupyterlab_vscode_icons_extension](https://github.com/stellarshenson/jupyterlab_vscode_icons_extension)** - VSCode file icons for JupyterLab file browser
 - **[jupyterlab_zip_extension](https://github.com/stellarshenson/jupyterlab_zip_extension)** - Archive compression and extraction in File Browser
 

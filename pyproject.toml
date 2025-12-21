@@ -42,6 +42,7 @@ dependencies = [
     "jupyterlab_tabular_data_viewer_extension",
     "jupyterlab_terminal_show_in_file_browser_extension",
     "jupyterlab_terraform_file_type_extension",
+    "jupyterlab_trash_mgmt_extension",
     "jupyterlab_vscode_icons_extension",
     "jupyterlab_zip_extension",
 ]
