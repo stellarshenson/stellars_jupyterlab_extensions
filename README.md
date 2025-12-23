@@ -21,6 +21,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_doc_reader_extension](https://github.com/stellarshenson/jupyterlab_doc_reader_extension)** - Open DOCX and RTF documents directly in JupyterLab
 - **[jupyterlab_drawio_render_extension](https://github.com/stellarshenson/jupyterlab_drawio_render_extension)** - View Draw.io diagrams directly in JupyterLab
 - **[jupyterlab_export_markdown_extension](https://github.com/stellarshenson/jupyterlab_export_markdown_extension)** - Export markdown to PDF, DOCX, and HTML
+- **[jupyterlab_file_browser_sorting_extension](https://github.com/stellarshenson/jupyterlab_file_browser_sorting_extension)** - LC_COLLATE=C (ASCIIbetical) sorting for file browser
 - **[jupyterlab_fit_image_size_extension](https://github.com/stellarshenson/jupyterlab_fit_image_size_extension)** - Auto-scale images to fit view while preserving original size for smaller images
 - **[jupyterlab_fold_all_code_extension](https://github.com/stellarshenson/jupyterlab_fold_all_code_extension)** - Fold/unfold all code cells in notebooks
 - **[jupyterlab_github_markdown_alerts_extension](https://github.com/stellarshenson/jupyterlab_github_markdown_alerts_extension)** - GitHub-style alert blocks in Markdown

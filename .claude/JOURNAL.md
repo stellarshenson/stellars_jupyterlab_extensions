@@ -27,3 +27,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 8. **Task - Re-enable launcher extension**: Re-enabled jupyterlab_launcher_navigate_to_kernel_extension<br>
     **Result**: Now 19 active extensions
+
+9. **Task - Add new extensions** (v1.0.17): Added jupyterlab_file_browser_sorting_extension, jupyterlab_nb_venv_kernels_ui_extension, jupyterlab_trash_mgmt_extension; renamed launcher extension to nb_venv_kernels_ui<br>
+    **Result**: Now 21 extensions total
