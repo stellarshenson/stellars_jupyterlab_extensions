@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "stellars_jupyterlab_extensions"
-version = "1.0.18"
+version = "1.0.19"
 description = "Metapackage aggregating all Stellars JupyterLab extensions"
 readme = "README.md"
 license = {text = "MIT"}
@@ -25,7 +25,6 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
-    "jupyterlab_close_all_tabs_extension",
     "jupyterlab_colourful_tab_extension",
     "jupyterlab_doc_reader_extension",
     "jupyterlab_drawio_render_extension",

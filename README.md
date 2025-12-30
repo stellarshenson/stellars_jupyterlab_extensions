@@ -16,7 +16,6 @@ pip install stellars_jupyterlab_extensions
 
 ## Included Extensions
 
-- **[jupyterlab_close_all_tabs_extension](https://github.com/stellarshenson/jupyterlab_close_all_tabs_extension)** - Add "Close All Tabs" menu option
 - **[jupyterlab_colourful_tab_extension](https://github.com/stellarshenson/jupyterlab_colourful_tab_extension)** - Assign pastel colours to tabs for visual identification
 - **[jupyterlab_doc_reader_extension](https://github.com/stellarshenson/jupyterlab_doc_reader_extension)** - Open DOCX and RTF documents directly in JupyterLab
 - **[jupyterlab_drawio_render_extension](https://github.com/stellarshenson/jupyterlab_drawio_render_extension)** - View Draw.io diagrams directly in JupyterLab
