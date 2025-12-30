@@ -30,3 +30,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 9. **Task - Add new extensions** (v1.0.17): Added jupyterlab_file_browser_sorting_extension, jupyterlab_nb_venv_kernels_ui_extension, jupyterlab_trash_mgmt_extension; renamed launcher extension to nb_venv_kernels_ui<br>
     **Result**: Now 21 extensions total
+
+10. **Task - Remove close_all_tabs extension** (v1.0.19): Removed jupyterlab_close_all_tabs_extension from metapackage<br>
+    **Result**: Published v1.0.19 to PyPI with 20 extensions
