@@ -33,3 +33,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 10. **Task - Remove close_all_tabs extension** (v1.0.19): Removed jupyterlab_close_all_tabs_extension from metapackage<br>
     **Result**: Published v1.0.19 to PyPI with 20 extensions
+
+11. **Task - Add show_commands_reference extension** (v1.0.20): Added jupyterlab_show_commands_reference_extension to metapackage<br>
+    **Result**: Now 21 extensions total
