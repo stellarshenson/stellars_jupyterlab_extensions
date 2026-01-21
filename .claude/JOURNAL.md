@@ -36,3 +36,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 11. **Task - Add show_commands_reference extension** (v1.0.21): Added jupyterlab_show_commands_reference_extension to metapackage<br>
     **Result**: Published v1.0.21 to PyPI with 21 extensions
+
+12. **Task - Add launcher_sections extension** (v1.0.25): Added jupyterlab_launcher_sections_extension and jupyterlab_kernel_terminal_workspace_culler_extension<br>
+    **Result**: Now 23 extensions total
