@@ -31,6 +31,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_markdown_insert_content_extension](https://github.com/stellarshenson/jupyterlab_markdown_insert_content_extension)** - Insert reusable content blocks with auto TOC generation
 - **[jupyterlab_mmd_to_png_extension](https://github.com/stellarshenson/jupyterlab_mmd_to_png_extension)** - Convert Mermaid diagrams to PNGs
 - **[jupyterlab_notifications_extension](https://github.com/stellarshenson/jupyterlab_notifications_extension)** - Secure API endpoint for JupyterLab notifications
+- **[jupyterlab_proxy_launcher_command_extension](https://github.com/stellarshenson/jupyterlab_proxy_launcher_command_extension)** - Launch jupyter-server-proxy via modal dialog
 - **[jupyterlab_refresh_view_extension](https://github.com/stellarshenson/jupyterlab_refresh_view_extension)** - Refresh file content preserving scroll position
 - **[jupyterlab_show_commands_reference_extension](https://github.com/stellarshenson/jupyterlab_show_commands_reference_extension)** - Display all JupyterLab commands with IDs and arguments
 - **[jupyterlab_tabular_data_viewer_extension](https://github.com/stellarshenson/jupyterlab_tabular_data_viewer_extension)** - Enhanced CSV/TSV, XLSX, Parquet viewer
