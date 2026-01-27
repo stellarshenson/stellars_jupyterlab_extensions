@@ -39,3 +39,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 12. **Task - Add launcher_sections extension** (v1.0.26): Added jupyterlab_launcher_sections_extension to metapackage<br>
     **Result**: Published v1.0.26 to PyPI with 23 extensions
+
+13. **Task - Add camunda_modeller extension** (v1.0.34): Added jupyterlab_camunda_modeller_extension to metapackage<br>
+    **Result**: Now 24 extensions total
