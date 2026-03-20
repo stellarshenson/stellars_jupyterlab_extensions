@@ -25,6 +25,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_file_browser_sorting_extension](https://github.com/stellarshenson/jupyterlab_file_browser_sorting_extension)** - LC_COLLATE=C (ASCIIbetical) sorting for file browser
 - **[jupyterlab_fit_image_size_extension](https://github.com/stellarshenson/jupyterlab_fit_image_size_extension)** - Auto-scale images to fit view while preserving original size for smaller images
 - **[jupyterlab_fold_all_code_extension](https://github.com/stellarshenson/jupyterlab_fold_all_code_extension)** - Fold/unfold all code cells in notebooks
+- **[jupyterlab_git_syntax_extension](https://github.com/stellarshenson/jupyterlab_git_syntax_extension)** - Syntax highlighting for git configuration files (.gitignore, .gitmodules, .gitattributes, .gitconfig)
 - **[jupyterlab_github_markdown_alerts_extension](https://github.com/stellarshenson/jupyterlab_github_markdown_alerts_extension)** - GitHub-style alert blocks in Markdown
 - **[jupyterlab_kernel_terminal_workspace_culler_extension](https://github.com/stellarshenson/jupyterlab_kernel_terminal_workspace_culler_extension)** - Auto-cull idle kernels, terminals, and sessions
 - **[jupyterlab_launcher_sections_extension](https://github.com/stellarshenson/jupyterlab_launcher_sections_extension)** - Custom section icons for launcher via YAML config
