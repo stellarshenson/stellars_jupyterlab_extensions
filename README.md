@@ -39,6 +39,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_refresh_view_extension](https://github.com/stellarshenson/jupyterlab_refresh_view_extension)** - Refresh file content preserving scroll position
 - **[jupyterlab_show_commands_reference_extension](https://github.com/stellarshenson/jupyterlab_show_commands_reference_extension)** - Display all JupyterLab commands with IDs and arguments
 - **[jupyterlab_tabular_data_viewer_extension](https://github.com/stellarshenson/jupyterlab_tabular_data_viewer_extension)** - Enhanced CSV/TSV, XLSX, Parquet viewer
+- **[jupyterlab_terminal_clipboard_extension](https://github.com/stellarshenson/jupyterlab_terminal_clipboard_extension)** - Clipboard integration for terminal sessions via OSC 52 interception
 - **[jupyterlab_terminal_show_in_file_browser_extension](https://github.com/stellarshenson/jupyterlab_terminal_show_in_file_browser_extension)** - Show terminal working directory in file browser
 - **[jupyterlab_terraform_file_type_extension](https://github.com/stellarshenson/jupyterlab_terraform_file_type_extension)** - Terraform/HCL syntax highlighting and file type recognition
 - **[jupyterlab_trash_mgmt_extension](https://github.com/stellarshenson/jupyterlab_trash_mgmt_extension)** - Trash panel with storage display, restore, and empty bin
