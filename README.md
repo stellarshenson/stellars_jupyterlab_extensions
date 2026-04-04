@@ -6,7 +6,7 @@
 [![JupyterLab 4](https://img.shields.io/badge/JupyterLab-4-orange.svg)](https://jupyterlab.readthedocs.io/en/stable/)
 [![Brought To You By KOLOMOLO](https://img.shields.io/badge/Brought%20To%20You%20By-KOLOMOLO-00ffff?style=flat)](https://kolomolo.com)
 
-Metapackage that installs all Stellars JupyterLab extensions in one command. Because typing 13 separate `pip install` commands was getting tedious, and copy-paste is a skill best reserved for StackOverflow answers.
+Metapackage that installs all Stellars JupyterLab extensions in one command. Because typing 30 separate `pip install` commands was getting tedious, and copy-paste is a skill best reserved for StackOverflow answers.
 
 ## Installation
 
@@ -35,6 +35,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_mmd_to_png_extension](https://github.com/stellarshenson/jupyterlab_mmd_to_png_extension)** - Convert Mermaid diagrams to PNGs
 - **[jupyterlab_notifications_extension](https://github.com/stellarshenson/jupyterlab_notifications_extension)** - Secure API endpoint for JupyterLab notifications
 - **[jupyterlab_open_in_terminal_extension](https://github.com/stellarshenson/jupyterlab_open_in_terminal_extension)** - Open folder in terminal via file browser context menu
+- **[jupyterlab_paste_content_as_markdown_extension](https://github.com/stellarshenson/jupyterlab_paste_content_as_markdown_extension)** - Paste clipboard content as markdown, converting HTML from web pages and documents
 - **[jupyterlab_proxy_launcher_command_extension](https://github.com/stellarshenson/jupyterlab_proxy_launcher_command_extension)** - Launch jupyter-server-proxy via modal dialog
 - **[jupyterlab_refresh_view_extension](https://github.com/stellarshenson/jupyterlab_refresh_view_extension)** - Refresh file content preserving scroll position
 - **[jupyterlab_show_commands_reference_extension](https://github.com/stellarshenson/jupyterlab_show_commands_reference_extension)** - Display all JupyterLab commands with IDs and arguments

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "stellars_jupyterlab_extensions"
-version = "1.0.39"
+version = "1.0.40"
 description = "Metapackage aggregating all Stellars JupyterLab extensions"
 readme = "README.md"
 license = {text = "MIT"}
@@ -44,6 +44,7 @@ dependencies = [
     "jupyterlab_mmd_to_png_extension",
     "jupyterlab_notifications_extension",
     "jupyterlab_open_in_terminal_extension",
+    "jupyterlab_paste_content_as_markdown_extension",
     "jupyterlab_proxy_launcher_command_extension",
     "jupyterlab_refresh_view_extension",
     "jupyterlab_show_commands_reference_extension",
