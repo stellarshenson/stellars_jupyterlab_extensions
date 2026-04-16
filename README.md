@@ -22,6 +22,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_doc_reader_extension](https://github.com/stellarshenson/jupyterlab_doc_reader_extension)** - Open DOCX and RTF documents directly in JupyterLab
 - **[jupyterlab_drawio_render_extension](https://github.com/stellarshenson/jupyterlab_drawio_render_extension)** - View Draw.io diagrams directly in JupyterLab
 - **[jupyterlab_export_markdown_extension](https://github.com/stellarshenson/jupyterlab_export_markdown_extension)** - Export markdown to PDF, DOCX, and HTML
+- **[jupyterlab_export_svg_as_png_extension](https://github.com/stellarshenson/jupyterlab_export_svg_as_png_extension)** - Copy or export SVG graphics as high-quality PNG with configurable DPI and theme-aware rendering
 - **[jupyterlab_file_browser_sorting_extension](https://github.com/stellarshenson/jupyterlab_file_browser_sorting_extension)** - LC_COLLATE=C (ASCIIbetical) sorting for file browser
 - **[jupyterlab_fit_image_size_extension](https://github.com/stellarshenson/jupyterlab_fit_image_size_extension)** - Auto-scale images to fit view while preserving original size for smaller images
 - **[jupyterlab_fold_all_code_extension](https://github.com/stellarshenson/jupyterlab_fold_all_code_extension)** - Fold/unfold all code cells in notebooks
@@ -32,7 +33,6 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_nb_venv_kernels_ui_extension](https://github.com/stellarshenson/jupyterlab_nb_venv_kernels_ui_extension)** - UI for nb_venv_kernels to navigate to kernel, register and unregister and scan for kernels
 - **[jupyterlab_makefile_file_type_extension](https://github.com/stellarshenson/jupyterlab_makefile_file_type_extension)** - Makefile syntax highlighting and file type registration
 - **[jupyterlab_markdown_insert_content_extension](https://github.com/stellarshenson/jupyterlab_markdown_insert_content_extension)** - Insert reusable content blocks with auto TOC generation
-- **[jupyterlab_mmd_to_png_extension](https://github.com/stellarshenson/jupyterlab_mmd_to_png_extension)** - Convert Mermaid diagrams to PNGs
 - **[jupyterlab_notifications_extension](https://github.com/stellarshenson/jupyterlab_notifications_extension)** - Secure API endpoint for JupyterLab notifications
 - **[jupyterlab_open_in_terminal_extension](https://github.com/stellarshenson/jupyterlab_open_in_terminal_extension)** - Open folder in terminal via file browser context menu
 - **[jupyterlab_paste_content_as_markdown_extension](https://github.com/stellarshenson/jupyterlab_paste_content_as_markdown_extension)** - Paste clipboard content as markdown, converting HTML from web pages and documents

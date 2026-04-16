@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "stellars_jupyterlab_extensions"
-version = "1.0.41"
+version = "1.0.42"
 description = "Metapackage aggregating all Stellars JupyterLab extensions"
 readme = "README.md"
 license = {text = "MIT"}
@@ -31,6 +31,7 @@ dependencies = [
     "jupyterlab_doc_reader_extension",
     "jupyterlab_drawio_render_extension",
     "jupyterlab_export_markdown_extension",
+    "jupyterlab_export_svg_as_png_extension",
     "jupyterlab_file_browser_sorting_extension",
     "jupyterlab_fit_image_size_extension",
     "jupyterlab_fold_all_code_extension",
@@ -41,7 +42,6 @@ dependencies = [
     "jupyterlab_nb_venv_kernels_ui_extension",
     "jupyterlab_makefile_file_type_extension",
     "jupyterlab_markdown_insert_content_extension",
-    "jupyterlab_mmd_to_png_extension",
     "jupyterlab_notifications_extension",
     "jupyterlab_open_in_terminal_extension",
     "jupyterlab_paste_content_as_markdown_extension",
