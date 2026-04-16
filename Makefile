@@ -1,10 +1,14 @@
-# Makefile for Stellars JupyterLab Extensions metapackage version 1.0
+# Makefile for Stellars JupyterLab Extensions metapackage version 1.1
+# changelog:
+#   1.1 - add mrproper target for deep cleanup (dist, build, caches, venv)
+#   1.0 - initial versioned Makefile
 
-.PHONY: clean build install uninstall publish help increment_version
+.PHONY: clean build install uninstall publish help increment_version mrproper
 
 help:
 	@echo "Available targets:"
 	@echo "  clean             - Remove build artifacts"
+	@echo "  mrproper          - Deep clean (clean + caches + venv)"
 	@echo "  increment_version - Increment patch version"
 	@echo "  build             - Build the package (increments version)"
 	@echo "  install           - Install the package locally (increments version)"
@@ -43,3 +47,9 @@ publish: increment_version clean
 	python -m build
 	pip install twine
 	twine upload dist/*
+
+mrproper: clean
+	rm -rf dist/ build/ *.egg-info/ .venv || true
+	find . -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
+	find . -type d -name ".pytest_cache" -exec rm -rf {} + 2>/dev/null || true
+	find . -type d -name ".ruff_cache" -exec rm -rf {} + 2>/dev/null || true
