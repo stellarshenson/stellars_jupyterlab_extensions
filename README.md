@@ -16,6 +16,7 @@ pip install stellars_jupyterlab_extensions
 
 ## Included Extensions
 
+- **[jupyterlab_basic_terminal_extension](https://github.com/stellarshenson/jupyterlab_basic_terminal_extension)** - Launch shell-less utility terminals that auto-close their tab when the underlying process exits
 - **[jupyterlab_branding_extension](https://github.com/stellarshenson/jupyterlab_branding_extension)** - Custom main area logo via server-side configuration
 - **[jupyterlab_camunda_modeller_extension](https://github.com/stellarshenson/jupyterlab_camunda_modeller_extension)** - Model BPMN diagrams and open Camunda BPMN files
 - **[jupyterlab_claude_code_extension](https://github.com/stellarshenson/jupyterlab_claude_code_extension)** - Manage Claude Code CLI sessions from a left-sidebar panel with one-click resume, live remote-control indicators, and favourites

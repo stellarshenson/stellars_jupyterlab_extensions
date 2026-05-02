@@ -25,6 +25,7 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
 ]
 dependencies = [
+    "jupyterlab_basic_terminal_extension",
     "jupyterlab_branding_extension",
     "jupyterlab_camunda_modeller_extension",
     "jupyterlab_claude_code_extension",
