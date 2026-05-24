@@ -6,7 +6,7 @@
 [![JupyterLab 4](https://img.shields.io/badge/JupyterLab-4-orange.svg)](https://jupyterlab.readthedocs.io/en/stable/)
 [![Brought To You By KOLOMOLO](https://img.shields.io/badge/Brought%20To%20You%20By-KOLOMOLO-00ffff?style=flat)](https://kolomolo.com)
 
-Metapackage that installs all Stellars JupyterLab extensions in one command. Because typing 30 separate `pip install` commands was getting tedious, and copy-paste is a skill best reserved for StackOverflow answers.
+Metapackage that installs all Stellars JupyterLab extensions in one command. Because typing 33 separate `pip install` commands was getting tedious, and copy-paste is a skill best reserved for StackOverflow answers.
 
 ## Installation
 
