@@ -45,3 +45,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 14. **Task - Add six new extensions** (v1.0.40): Added jupyterlab_branding_extension, jupyterlab_git_syntax_extension, jupyterlab_open_in_terminal_extension, jupyterlab_paste_content_as_markdown_extension, jupyterlab_proxy_launcher_command_extension, and jupyterlab_terminal_clipboard_extension to metapackage<br>
     **Result**: Now 30 extensions total. Fixed stale extension count in README (13 -> 30), synced __init__.py version, updated .claude/CLAUDE.md with full extension list and Python >=3.10
+
+15. **Task - Add drag_and_drop_path extension** (v1.0.46): Added jupyterlab_drag_and_drop_path_extension to metapackage<br>
+    **Result**: Now 33 extensions total
