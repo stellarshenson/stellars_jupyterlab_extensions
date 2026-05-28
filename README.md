@@ -41,6 +41,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_paste_content_as_markdown_extension](https://github.com/stellarshenson/jupyterlab_paste_content_as_markdown_extension)** - Paste clipboard content as markdown, converting HTML from web pages and documents
 - **[jupyterlab_proxy_launcher_command_extension](https://github.com/stellarshenson/jupyterlab_proxy_launcher_command_extension)** - Launch jupyter-server-proxy via modal dialog
 - **[jupyterlab_refresh_view_extension](https://github.com/stellarshenson/jupyterlab_refresh_view_extension)** - Refresh file content preserving scroll position
+- **[jupyterlab_share_files_extension](https://github.com/stellarshenson/jupyterlab_share_files_extension)** - Side-panel shares (file drops) and requests (upload inboxes), link-shareable to any browser
 - **[jupyterlab_show_commands_reference_extension](https://github.com/stellarshenson/jupyterlab_show_commands_reference_extension)** - Display all JupyterLab commands with IDs and arguments
 - **[jupyterlab_tabular_data_viewer_extension](https://github.com/stellarshenson/jupyterlab_tabular_data_viewer_extension)** - Enhanced CSV/TSV, XLSX, Parquet viewer
 - **[jupyterlab_terminal_clipboard_extension](https://github.com/stellarshenson/jupyterlab_terminal_clipboard_extension)** - Clipboard integration for terminal sessions via OSC 52 interception
