@@ -16,6 +16,7 @@ pip install stellars_jupyterlab_extensions
 
 ## Included Extensions
 
+- **[jupyterlab_advanced_image_viewer_extension](https://github.com/stellarshenson/jupyterlab_advanced_image_viewer_extension)** - Interactive image viewer with wheel-zoom, drag-pan, and arrow-key folder navigation
 - **[jupyterlab_basic_terminal_extension](https://github.com/stellarshenson/jupyterlab_basic_terminal_extension)** - Launch shell-less utility terminals that auto-close their tab when the underlying process exits
 - **[jupyterlab_branding_extension](https://github.com/stellarshenson/jupyterlab_branding_extension)** - Custom main area logo via server-side configuration
 - **[jupyterlab_camunda_modeller_extension](https://github.com/stellarshenson/jupyterlab_camunda_modeller_extension)** - Model BPMN diagrams and open Camunda BPMN files
