@@ -25,6 +25,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_doc_reader_extension](https://github.com/stellarshenson/jupyterlab_doc_reader_extension)** - Open DOCX and RTF documents directly in JupyterLab
 - **[jupyterlab_drag_and_drop_path_extension](https://github.com/stellarshenson/jupyterlab_drag_and_drop_path_extension)** - Drag a file or folder onto a terminal, Python file, or notebook to insert its path
 - **[jupyterlab_drawio_render_extension](https://github.com/stellarshenson/jupyterlab_drawio_render_extension)** - View Draw.io diagrams directly in JupyterLab
+- **[jupyterlab_edit_markdown_at_content_extension](https://github.com/stellarshenson/jupyterlab_edit_markdown_at_content_extension)** - Jump from rendered markdown preview into the editor at the exact line you were reading
 - **[jupyterlab_export_markdown_extension](https://github.com/stellarshenson/jupyterlab_export_markdown_extension)** - Export markdown to PDF, DOCX, and HTML
 - **[jupyterlab_export_svg_as_png_extension](https://github.com/stellarshenson/jupyterlab_export_svg_as_png_extension)** - Copy or export SVG graphics as high-quality PNG with configurable DPI and theme-aware rendering
 - **[jupyterlab_file_browser_sorting_extension](https://github.com/stellarshenson/jupyterlab_file_browser_sorting_extension)** - LC_COLLATE=C (ASCIIbetical) sorting for file browser
