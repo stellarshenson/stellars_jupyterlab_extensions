@@ -51,6 +51,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_terminal_show_in_file_browser_extension](https://github.com/stellarshenson/jupyterlab_terminal_show_in_file_browser_extension)** - Show terminal working directory in file browser
 - **[jupyterlab_terraform_file_type_extension](https://github.com/stellarshenson/jupyterlab_terraform_file_type_extension)** - Terraform/HCL syntax highlighting and file type recognition
 - **[jupyterlab_trash_mgmt_extension](https://github.com/stellarshenson/jupyterlab_trash_mgmt_extension)** - Trash panel with storage display, restore, and empty bin
+- **[jupyterlab_voice_capture_extension](https://github.com/stellarshenson/jupyterlab_voice_capture_extension)** - Stream browser-captured microphone audio over an authenticated websocket to a server-side FIFO, exposing the mic to terminal apps in mic-less containers
 - **[jupyterlab_vscode_icons_extension](https://github.com/stellarshenson/jupyterlab_vscode_icons_extension)** - VSCode file icons for JupyterLab file browser
 - **[jupyterlab_zip_extension](https://github.com/stellarshenson/jupyterlab_zip_extension)** - Archive compression and extraction in File Browser
 
