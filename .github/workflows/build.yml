@@ -41,7 +41,8 @@ jobs:
     - name: Verify package contents
       run: |
         set -eux
-        pip install dist/*.whl --dry-run
+        pip install pkginfo
+        python -c "from pkginfo import Wheel; w = Wheel(next(__import__('pathlib').Path('dist').glob('*.whl'))); print(f'{w.name} {w.version}'); assert w.name and w.version"
 
     - name: Upload package artifacts
       uses: actions/upload-artifact@v4

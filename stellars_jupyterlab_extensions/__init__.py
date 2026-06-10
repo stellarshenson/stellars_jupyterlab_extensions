@@ -3,4 +3,4 @@
 Installs all Stellars JupyterLab extensions as dependencies.
 """
 
-__version__ = "1.0.51"
+__version__ = "1.1.0"

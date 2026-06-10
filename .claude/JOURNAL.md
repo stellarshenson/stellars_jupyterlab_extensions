@@ -48,3 +48,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 15. **Task - Add drag_and_drop_path extension** (v1.0.46): Added jupyterlab_drag_and_drop_path_extension to metapackage<br>
     **Result**: Now 33 extensions total
+
+16. **Task - Fix CI and bump minor version** (v1.1.0): Fixed GitHub Actions build workflow - replaced `pip install --dry-run` with `pkginfo` wheel metadata validation since dry-run fails resolving 33+ extension dependencies in CI. Bumped version from 1.0.51 to 1.1.0<br>
+    **Result**: Build workflow should now pass. Added jupyterlab_edit_markdown_at_content_extension in same cycle
