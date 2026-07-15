@@ -41,6 +41,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_mermaid_latest_extension](https://github.com/stellarshenson/jupyterlab_mermaid_latest_extension)** - Replace JupyterLab's bundled Mermaid renderer with the latest release for newer diagram types
 - **[jupyterlab_notifications_extension](https://github.com/stellarshenson/jupyterlab_notifications_extension)** - Secure API endpoint for JupyterLab notifications
 - **[jupyterlab_open_in_terminal_extension](https://github.com/stellarshenson/jupyterlab_open_in_terminal_extension)** - Open folder in terminal via file browser context menu
+- **[jupyterlab_passkey_extension](https://github.com/stellarshenson/jupyterlab_passkey_extension)** - Generic WebAuthn bridge exposing the browser's passkey to terminal and CLI clients on the Jupyter server
 - **[jupyterlab_paste_content_as_markdown_extension](https://github.com/stellarshenson/jupyterlab_paste_content_as_markdown_extension)** - Paste clipboard content as markdown, converting HTML from web pages and documents
 - **[jupyterlab_proxy_launcher_command_extension](https://github.com/stellarshenson/jupyterlab_proxy_launcher_command_extension)** - Launch jupyter-server-proxy via modal dialog
 - **[jupyterlab_refresh_view_extension](https://github.com/stellarshenson/jupyterlab_refresh_view_extension)** - Refresh file content preserving scroll position

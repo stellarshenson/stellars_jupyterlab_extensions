@@ -50,6 +50,7 @@ dependencies = [
     "jupyterlab_mermaid_latest_extension",
     "jupyterlab_notifications_extension",
     "jupyterlab_open_in_terminal_extension",
+    "jupyterlab_passkey_extension",
     "jupyterlab_paste_content_as_markdown_extension",
     "jupyterlab_proxy_launcher_command_extension",
     "jupyterlab_refresh_view_extension",
