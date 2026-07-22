@@ -38,7 +38,6 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_nb_venv_kernels_ui_extension](https://github.com/stellarshenson/jupyterlab_nb_venv_kernels_ui_extension)** - UI for nb_venv_kernels to navigate to kernel, register and unregister and scan for kernels
 - **[jupyterlab_makefile_file_type_extension](https://github.com/stellarshenson/jupyterlab_makefile_file_type_extension)** - Makefile syntax highlighting and file type registration
 - **[jupyterlab_markdown_insert_content_extension](https://github.com/stellarshenson/jupyterlab_markdown_insert_content_extension)** - Insert reusable content blocks with auto TOC generation
-- **[jupyterlab_mermaid_latest_extension](https://github.com/stellarshenson/jupyterlab_mermaid_latest_extension)** - Replace JupyterLab's bundled Mermaid renderer with the latest release for newer diagram types
 - **[jupyterlab_notifications_extension](https://github.com/stellarshenson/jupyterlab_notifications_extension)** - Secure API endpoint for JupyterLab notifications
 - **[jupyterlab_open_in_terminal_extension](https://github.com/stellarshenson/jupyterlab_open_in_terminal_extension)** - Open folder in terminal via file browser context menu
 - **[jupyterlab_passkey_extension](https://github.com/stellarshenson/jupyterlab_passkey_extension)** - Generic WebAuthn bridge exposing the browser's passkey to terminal and CLI clients on the Jupyter server
