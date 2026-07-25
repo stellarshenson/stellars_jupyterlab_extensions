@@ -21,6 +21,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_branding_extension](https://github.com/stellarshenson/jupyterlab_branding_extension)** - Custom main area logo via server-side configuration
 - **[jupyterlab_camunda_modeller_extension](https://github.com/stellarshenson/jupyterlab_camunda_modeller_extension)** - Model BPMN diagrams and open Camunda BPMN files
 - **[jupyterlab_claude_code_extension](https://github.com/stellarshenson/jupyterlab_claude_code_extension)** - Manage Claude Code CLI sessions from a left-sidebar panel with one-click resume, live remote-control indicators, and favourites
+- **[jupyterlab_codex_extension](https://github.com/stellarshenson/jupyterlab_codex_extension)** - Side-panel session management for the OpenAI Codex CLI - start, resume, fork, switch, and clean up sessions with one click
 - **[jupyterlab_colourful_tab_extension](https://github.com/stellarshenson/jupyterlab_colourful_tab_extension)** - Assign pastel colours to tabs for visual identification
 - **[jupyterlab_doc_reader_extension](https://github.com/stellarshenson/jupyterlab_doc_reader_extension)** - Open DOCX and RTF documents directly in JupyterLab
 - **[jupyterlab_drag_and_drop_path_extension](https://github.com/stellarshenson/jupyterlab_drag_and_drop_path_extension)** - Drag a file or folder onto a terminal, Python file, or notebook to insert its path
@@ -44,6 +45,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_paste_content_as_markdown_extension](https://github.com/stellarshenson/jupyterlab_paste_content_as_markdown_extension)** - Paste clipboard content as markdown, converting HTML from web pages and documents
 - **[jupyterlab_proxy_launcher_command_extension](https://github.com/stellarshenson/jupyterlab_proxy_launcher_command_extension)** - Launch jupyter-server-proxy via modal dialog
 - **[jupyterlab_refresh_view_extension](https://github.com/stellarshenson/jupyterlab_refresh_view_extension)** - Refresh file content preserving scroll position
+- **[jupyterlab_resource_monitor_extension](https://github.com/stellarshenson/jupyterlab_resource_monitor_extension)** - Cgroup-aware memory and CPU indicators in the status bar with a kernel usage panel, replacing `jupyter-resource-usage`
 - **[jupyterlab_share_files_extension](https://github.com/stellarshenson/jupyterlab_share_files_extension)** - Side-panel shares (file drops) and requests (upload inboxes), link-shareable to any browser
 - **[jupyterlab_show_commands_reference_extension](https://github.com/stellarshenson/jupyterlab_show_commands_reference_extension)** - Display all JupyterLab commands with IDs and arguments
 - **[jupyterlab_tabular_data_viewer_extension](https://github.com/stellarshenson/jupyterlab_tabular_data_viewer_extension)** - Enhanced CSV/TSV, XLSX, Parquet viewer
