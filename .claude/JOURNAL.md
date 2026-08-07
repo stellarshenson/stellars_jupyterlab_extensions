@@ -51,3 +51,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 16. **Task - Fix CI and bump minor version** (v1.1.0): Fixed GitHub Actions build workflow - replaced `pip install --dry-run` with `pkginfo` wheel metadata validation since dry-run fails resolving 33+ extension dependencies in CI. Bumped version from 1.0.51 to 1.1.0<br>
     **Result**: Build workflow should now pass. Added jupyterlab_edit_markdown_at_content_extension in same cycle
+
+17. **Task - Repoint to consolidated AI assistants extension** (v1.1.5): Replaced claude/codex extension dependencies with `jupyterlab_ai_code_assistants_extension`, published v1.1.5 to PyPI<br>
+    **Result**: Standalone `jupyterlab_claude_code_extension` and `jupyterlab_codex_extension` retired - superseded by `jupyterlab_ai_code_assistants_extension` 0.6.15, which consolidates Claude Code, Codex, Kimi and Gemini panels behind one provider registry (kimi was never listed here). Swapped the two deps in `pyproject.toml`, added README bullet naming the consolidated extension as superseding the standalones. Installing the metapackage now delivers one consolidated extension instead of per-assistant panels; standalone repos carry superseded notices in their READMEs.
