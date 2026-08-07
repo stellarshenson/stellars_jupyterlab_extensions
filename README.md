@@ -17,11 +17,10 @@ pip install stellars_jupyterlab_extensions
 ## Included Extensions
 
 - **[jupyterlab_advanced_image_viewer_extension](https://github.com/stellarshenson/jupyterlab_advanced_image_viewer_extension)** - Interactive image viewer with wheel-zoom, drag-pan, and arrow-key folder navigation
+- **[jupyterlab_ai_code_assistants_extension](https://github.com/stellarshenson/jupyterlab_ai_code_assistants_extension)** - AI code assistant side panels (Claude Code, Codex, Kimi, Gemini) behind one provider registry - sessions, forks, colours, and per-assistant launch modes; supersedes the standalone claude/codex/kimi extensions
 - **[jupyterlab_basic_terminal_extension](https://github.com/stellarshenson/jupyterlab_basic_terminal_extension)** - Launch shell-less utility terminals that auto-close their tab when the underlying process exits
 - **[jupyterlab_branding_extension](https://github.com/stellarshenson/jupyterlab_branding_extension)** - Custom main area logo via server-side configuration
 - **[jupyterlab_camunda_modeller_extension](https://github.com/stellarshenson/jupyterlab_camunda_modeller_extension)** - Model BPMN diagrams and open Camunda BPMN files
-- **[jupyterlab_claude_code_extension](https://github.com/stellarshenson/jupyterlab_claude_code_extension)** - Manage Claude Code CLI sessions from a left-sidebar panel with one-click resume, live remote-control indicators, and favourites
-- **[jupyterlab_codex_extension](https://github.com/stellarshenson/jupyterlab_codex_extension)** - Side-panel session management for the OpenAI Codex CLI - start, resume, fork, switch, and clean up sessions with one click
 - **[jupyterlab_colourful_tab_extension](https://github.com/stellarshenson/jupyterlab_colourful_tab_extension)** - Assign pastel colours to tabs for visual identification
 - **[jupyterlab_doc_reader_extension](https://github.com/stellarshenson/jupyterlab_doc_reader_extension)** - Open DOCX and RTF documents directly in JupyterLab
 - **[jupyterlab_drag_and_drop_path_extension](https://github.com/stellarshenson/jupyterlab_drag_and_drop_path_extension)** - Drag a file or folder onto a terminal, Python file, or notebook to insert its path
