@@ -17,6 +17,7 @@ pip install stellars_jupyterlab_extensions
 ## Included Extensions
 
 - **[jupyterlab_advanced_image_viewer_extension](https://github.com/stellarshenson/jupyterlab_advanced_image_viewer_extension)** - Interactive image viewer with wheel-zoom, drag-pan, and arrow-key folder navigation
+- **[jupyterlab_advanced_markdown_viewer_extension](https://github.com/stellarshenson/jupyterlab_advanced_markdown_viewer_extension)** - Live Markdown preview: an open rendered document follows the file on disk without a reload, changes typed in on green, removed text shown red before it goes, a tab cue while changes arrive
 - **[jupyterlab_ai_code_assistants_extension](https://github.com/stellarshenson/jupyterlab_ai_code_assistants_extension)** - AI code assistant side panels (Claude Code, Codex, Kimi, Gemini) behind one provider registry - sessions, forks, colours, and per-assistant launch modes; supersedes the standalone claude/codex/kimi extensions
 - **[jupyterlab_basic_terminal_extension](https://github.com/stellarshenson/jupyterlab_basic_terminal_extension)** - Launch shell-less utility terminals that auto-close their tab when the underlying process exits
 - **[jupyterlab_branding_extension](https://github.com/stellarshenson/jupyterlab_branding_extension)** - Custom main area logo via server-side configuration

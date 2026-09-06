@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "stellars_jupyterlab_extensions"
-version = "1.1.5"
+version = "1.1.6"
 description = "Metapackage aggregating all Stellars JupyterLab extensions"
 readme = "README.md"
 license = {text = "MIT"}
@@ -26,6 +26,7 @@ classifiers = [
 ]
 dependencies = [
     "jupyterlab_advanced_image_viewer_extension",
+    "jupyterlab_advanced_markdown_viewer_extension",
     "jupyterlab_ai_code_assistants_extension",
     "jupyterlab_basic_terminal_extension",
     "jupyterlab_branding_extension",
