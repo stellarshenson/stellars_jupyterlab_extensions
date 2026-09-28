@@ -16,6 +16,7 @@ pip install stellars_jupyterlab_extensions
 
 ## Included Extensions
 
+- **[jupyterlab_advanced_html_viewer_extension](https://github.com/stellarshenson/jupyterlab_advanced_html_viewer_extension)** - HTML viewer that trusts and refreshes a page as the built-in one does, with marks in six colours, comments and a notes panel stored in the HTML file itself; only text written in the file takes a comment
 - **[jupyterlab_advanced_image_viewer_extension](https://github.com/stellarshenson/jupyterlab_advanced_image_viewer_extension)** - Interactive image viewer with wheel-zoom, drag-pan, and arrow-key folder navigation
 - **[jupyterlab_advanced_markdown_viewer_extension](https://github.com/stellarshenson/jupyterlab_advanced_markdown_viewer_extension)** - Live Markdown preview: an open rendered document follows the file on disk without a reload, changes typed in on green, removed text shown red before it goes, a tab cue while changes arrive
 - **[jupyterlab_advanced_paste_content_extension](https://github.com/stellarshenson/jupyterlab_advanced_paste_content_extension)** - Paste a screenshot or a file and it lands as a real file in the current folder, with the receiving surface given a reference to it instead of an inline blob - an image link in markdown, a quoted name in a code cell, the bare name in a terminal
