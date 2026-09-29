@@ -59,6 +59,12 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_vscode_icons_extension](https://github.com/stellarshenson/jupyterlab_vscode_icons_extension)** - VSCode file icons for JupyterLab file browser
 - **[jupyterlab_zip_extension](https://github.com/stellarshenson/jupyterlab_zip_extension)** - Archive compression and extraction in File Browser
 
+## Galaxa Ecosystem Extensions
+
+Extensions for labs that a GalaxaHub hub spawns. In any other lab they install without error and show nothing.
+
+- **[jupyterlab_galaxahub_motd_extension](https://github.com/stellarshenson/jupyterlab_galaxahub_motd_extension)** - Message of the day tab with the user's welcome entries and the broadcasts sent to the user, which opens on lab start only when the hub has a message for the user
+
 ## Requirements
 
 - JupyterLab >= 4.0.0
