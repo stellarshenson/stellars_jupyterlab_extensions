@@ -25,6 +25,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_branding_extension](https://github.com/stellarshenson/jupyterlab_branding_extension)** - Custom main area logo via server-side configuration
 - **[jupyterlab_camunda_modeller_extension](https://github.com/stellarshenson/jupyterlab_camunda_modeller_extension)** - Model BPMN diagrams and open Camunda BPMN files
 - **[jupyterlab_colourful_tab_extension](https://github.com/stellarshenson/jupyterlab_colourful_tab_extension)** - Assign pastel colours to tabs for visual identification
+- **[jupyterlab_device_bridge_extension](https://github.com/stellarshenson/jupyterlab_device_bridge_extension)** - Bridge serial (COM) ports and USB devices of the browser's computer into the JupyterLab container through Web Serial and WebUSB, so terminal programs and AI agents can program and read microcontroller boards
 - **[jupyterlab_doc_reader_extension](https://github.com/stellarshenson/jupyterlab_doc_reader_extension)** - Open DOCX and RTF documents directly in JupyterLab
 - **[jupyterlab_drag_and_drop_path_extension](https://github.com/stellarshenson/jupyterlab_drag_and_drop_path_extension)** - Drag a file or folder onto a terminal, Python file, or notebook to insert its path
 - **[jupyterlab_drawio_render_extension](https://github.com/stellarshenson/jupyterlab_drawio_render_extension)** - View Draw.io diagrams directly in JupyterLab

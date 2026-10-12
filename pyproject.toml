@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "stellars_jupyterlab_extensions"
-version = "1.1.10"
+version = "1.1.11"
 description = "Metapackage aggregating all Stellars JupyterLab extensions"
 readme = "README.md"
 license = {text = "MIT"}
@@ -34,6 +34,7 @@ dependencies = [
     "jupyterlab_branding_extension",
     "jupyterlab_camunda_modeller_extension",
     "jupyterlab_colourful_tab_extension",
+    "jupyterlab_device_bridge_extension",
     "jupyterlab_doc_reader_extension",
     "jupyterlab_drag_and_drop_path_extension",
     "jupyterlab_drawio_render_extension",

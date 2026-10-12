@@ -69,3 +69,9 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 22. **Task [Short] - Publish with the GalaxaHub motd extension** (v1.1.10): Released the metapackage to PyPI as 1.1.10<br>
     **Result**: Ships entry 21: `jupyterlab_galaxahub_motd_extension` in `dependencies` (43 packages) and the Galaxa Ecosystem Extensions README section. Uploaded 2026-09-29 19:10 UTC from commit `cf2feb2`. No pins, so an install resolves the motd extension's current release, 0.8.10.
+
+23. **Task - Add the device bridge extension** (v1.1.10): Added `jupyterlab_device_bridge_extension` to the dependency list and the README catalogue<br>
+    **Result**: Requested on 2026-10-12, the day of the extension's first release. It bridges serial (COM) ports and USB devices of the browser's computer into the lab container through Web Serial and WebUSB, so terminal programs and AI agents program and read microcontroller boards. Package name added to `dependencies` in `pyproject.toml` in alphabetical order after `jupyterlab_colourful_tab_extension` (44 packages, no duplicates, the TOML parses), one bullet added to `README.md` under Included Extensions at the same position. No version pin. `pip index versions` shows 0.6.18 on PyPI, its only release, so an install resolves it. Its own README states that it is tested with simulated devices and with no physical board. Not published: the version stays 1.1.10 until a release is approved.
+
+24. **Task [Short] - Publish with the device bridge extension** (v1.1.11): Released the metapackage to PyPI as 1.1.11<br>
+    **Result**: Ships entry 23: `jupyterlab_device_bridge_extension` in `dependencies` (44 packages) and its README entry under Included Extensions. No pins, so an install resolves the device bridge's current release, 0.6.20.
