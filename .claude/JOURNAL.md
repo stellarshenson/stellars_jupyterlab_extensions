@@ -75,3 +75,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 24. **Task [Short] - Publish with the device bridge extension** (v1.1.11): Released the metapackage to PyPI as 1.1.11<br>
     **Result**: Ships entry 23: `jupyterlab_device_bridge_extension` in `dependencies` (44 packages) and its README entry under Included Extensions. No pins, so an install resolves the device bridge's current release, 0.6.20.
+
+25. **Task - Rename the commands extension dependency** (v1.1.12): Replaced `jupyterlab_show_commands_reference_extension` with `jupyterlab_commands_extension` and released the metapackage<br>
+    **Result**: The commands reference extension was renamed on PyPI, npm and GitHub when it gained the `jupyterlab-commands` CLI, which lets agents and scripts run allowed JupyterLab commands in the browser; its first release under the new name is 1.0.16. The old name receives no further releases, so the metapackage had to depend on the new one. Updated `dependencies` in `pyproject.toml`, the README catalogue and the extension list in `.claude/CLAUDE.md`, and moved the entry to its alphabetical slot after `jupyterlab_colourful_tab_extension` in all three. The README bullet now names the CLI as well as the reference tab. No version pin, so an install resolves 1.0.16.

@@ -19,6 +19,7 @@ This file extends workspace-level configuration with project-specific rules.
 - jupyterlab_branding_extension
 - jupyterlab_camunda_modeller_extension
 - jupyterlab_colourful_tab_extension
+- jupyterlab_commands_extension
 - jupyterlab_doc_reader_extension
 - jupyterlab_drawio_render_extension
 - jupyterlab_export_markdown_extension
@@ -38,7 +39,6 @@ This file extends workspace-level configuration with project-specific rules.
 - jupyterlab_paste_content_as_markdown_extension
 - jupyterlab_proxy_launcher_command_extension
 - jupyterlab_refresh_view_extension
-- jupyterlab_show_commands_reference_extension
 - jupyterlab_tabular_data_viewer_extension
 - jupyterlab_terminal_clipboard_extension
 - jupyterlab_terminal_show_in_file_browser_extension
