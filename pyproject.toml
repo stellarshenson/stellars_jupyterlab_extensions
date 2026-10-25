@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "stellars_jupyterlab_extensions"
-version = "1.1.12"
+version = "1.1.13"
 description = "Metapackage aggregating all Stellars JupyterLab extensions"
 readme = "README.md"
 license = {text = "MIT"}
@@ -68,6 +68,7 @@ dependencies = [
     "jupyterlab_trash_mgmt_extension",
     "jupyterlab_voice_capture_extension",
     "jupyterlab_vscode_icons_extension",
+    "jupyterlab_workspace_manager_extension",
     "jupyterlab_zip_extension",
 ]
 

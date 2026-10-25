@@ -58,6 +58,7 @@ pip install stellars_jupyterlab_extensions
 - **[jupyterlab_trash_mgmt_extension](https://github.com/stellarshenson/jupyterlab_trash_mgmt_extension)** - Trash panel with storage display, restore, and empty bin
 - **[jupyterlab_voice_capture_extension](https://github.com/stellarshenson/jupyterlab_voice_capture_extension)** - Stream browser-captured microphone audio over an authenticated websocket to a server-side FIFO, exposing the mic to terminal apps in mic-less containers
 - **[jupyterlab_vscode_icons_extension](https://github.com/stellarshenson/jupyterlab_vscode_icons_extension)** - VSCode file icons for JupyterLab file browser
+- **[jupyterlab_workspace_manager_extension](https://github.com/stellarshenson/jupyterlab_workspace_manager_extension)** - Replace the Running Terminals and Kernels panel with one section per workspace: colour strip, purpose, age and counts, one section open at a time, with that workspace's tabs, terminals, kernels and language servers, plus the `jupyterlab-workspace` command
 - **[jupyterlab_zip_extension](https://github.com/stellarshenson/jupyterlab_zip_extension)** - Archive compression and extraction in File Browser
 
 ## Galaxa Ecosystem Extensions
