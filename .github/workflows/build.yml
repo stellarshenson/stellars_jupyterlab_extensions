@@ -68,9 +68,11 @@ jobs:
     - name: Install package
       run: |
         set -eux
-        pip install stellars_jupyterlab_extensions*.whl
+        pip install "$(ls stellars_jupyterlab_extensions*.whl)[test]"
 
     - name: Verify installation
       run: |
         set -eux
         python -c "import stellars_jupyterlab_extensions; print(stellars_jupyterlab_extensions.__version__)"
+        jupyter server extension list 2>&1 | grep -ie "stellars_jupyterlab_extensions.*OK"
+        pytest --pyargs stellars_jupyterlab_extensions

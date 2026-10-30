@@ -104,3 +104,6 @@ dmypy.json
 
 # OSX files
 .DS_Store
+
+# Build and publish logs
+logs/

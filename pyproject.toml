@@ -74,6 +74,12 @@ dependencies = [
     "jupyterlab_zip_extension",
 ]
 
+[project.optional-dependencies]
+test = ["pytest"]
+
 [project.urls]
 Homepage = "https://github.com/stellarshenson"
 Repository = "https://github.com/stellarshenson"
+
+[tool.hatch.build.targets.wheel.shared-data]
+"jupyter-config/server-config" = "etc/jupyter/jupyter_server_config.d"

@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Reconstructed from the repository history on 2026-10-26. Releases before 1.0.41 have no record in this repository. Versions whose only change was a publish or metadata bump, with no change to the dependency list, are listed as Publish.
 
+## [Unreleased]
+
+### Added
+
+- Settings carry-over - at server start, a server extension copies saved settings from the old folder of each renamed extension (`jupyterlab_foo_extension`) to its scoped folder (`@stellarshenson/jupyterlab-foo-extension`) once the scoped extension is installed; it never overwrites a file in the scoped folder and it leaves the old files in place
+
 ## [1.1.14] - 2026-10-29
 
 ### Added

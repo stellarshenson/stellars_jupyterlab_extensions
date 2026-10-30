@@ -14,6 +14,8 @@ Metapackage that installs all Stellars JupyterLab extensions in one command. Bec
 pip install stellars_jupyterlab_extensions
 ```
 
+At server start, this metapackage copies saved settings from the old folder of each renamed extension (`jupyterlab_foo_extension`) to its new folder (`@stellarshenson/jupyterlab-foo-extension`) in the user settings directory, once the renamed extension is installed. It never overwrites a file in the new folder, and the old files stay, so a downgrade still finds them. The copy happens only with this metapackage installed.
+
 ## Included Extensions
 
 - **[jupyterlab_advanced_html_viewer_extension](https://github.com/stellarshenson/jupyterlab_advanced_html_viewer_extension)** - HTML viewer that trusts and refreshes a page as the built-in one does, with marks in six colours, comments and a notes panel stored in the HTML file itself; only text written in the file takes a comment
