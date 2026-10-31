@@ -74,4 +74,4 @@ Extensions for labs that a GalaxaHub hub spawns. In any other lab they install w
 ## Requirements
 
 - JupyterLab >= 4.0.0
-- Python >= 3.10
+- Python >= 3.12
