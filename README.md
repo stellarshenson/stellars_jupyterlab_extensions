@@ -18,6 +18,7 @@ At server start, this metapackage copies saved settings from the old folder of e
 
 ## Included Extensions
 
+- **[jupyterlab_advanced_file_browser_extension](https://github.com/stellarshenson/jupyterlab_advanced_file_browser_extension)** - Folder unfolding as a tree in the file browser, Unix Style Sorting and Open in Terminal in one extension; replaces the separate sorting and open-in-terminal extensions
 - **[jupyterlab_advanced_html_viewer_extension](https://github.com/stellarshenson/jupyterlab_advanced_html_viewer_extension)** - HTML viewer that trusts and refreshes a page as the built-in one does, with marks in six colours, comments and a notes panel stored in the HTML file itself; only text written in the file takes a comment
 - **[jupyterlab_advanced_image_viewer_extension](https://github.com/stellarshenson/jupyterlab_advanced_image_viewer_extension)** - Interactive image viewer with wheel-zoom, drag-pan, and arrow-key folder navigation
 - **[jupyterlab_advanced_markdown_viewer_extension](https://github.com/stellarshenson/jupyterlab_advanced_markdown_viewer_extension)** - Live Markdown preview: an open rendered document follows the file on disk without a reload, changes typed in on green, removed text shown red before it goes, a tab cue while changes arrive

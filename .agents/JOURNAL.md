@@ -93,3 +93,6 @@ This journal tracks substantive work on documents, diagrams, and documentation c
 
 30. **Task - Require Python 3.12** (v1.1.17): raised the minimum Python to 3.12 on the owner's decision<br>
     **Result**: `requires-python` in `pyproject.toml` moved to `>=3.12`, the classifiers for Python 3.10 and 3.11 are removed, and the `build.yml` matrix runs only Python 3.12. The extensions this metapackage installs declare the same minimum, so on an older Python pip would otherwise install this package with extensions from before the scoped npm rename. The version floors of its dependencies are not changed.
+
+31. **Task - Add the advanced file browser extension** (v1.1.18): Added jupyterlab_advanced_file_browser_extension to the metapackage and released it<br>
+    **Result**: The dependency list in `pyproject.toml` and the Included Extensions list in `README.md` now carry `jupyterlab_advanced_file_browser_extension`, the extension that provides folder unfolding, Unix Style Sorting and Open in Terminal and replaces the two separate extensions. `make publish` released 1.1.18 to PyPI after 10 passed tests; the two replaced extensions say in their own READMEs that they are retired. The file browser extension itself is on PyPI at 0.8.5.
