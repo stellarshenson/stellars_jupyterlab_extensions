@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Reconstructed from the repository history on 2026-10-26. Releases before 1.0.41 have no record in this repository. Versions whose only change was a publish or metadata bump, with no change to the dependency list, are listed as Publish.
 
+## [1.1.20] - 2026-11-12
+
+### Changed
+
+- The dependency on `jupyterlab_voice_capture_extension` becomes `jupyterlab_audio_extension` after the rename
+
 ## [1.1.19] - 2026-11-11
 
 ### Removed
