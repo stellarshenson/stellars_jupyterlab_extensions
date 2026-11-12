@@ -9,7 +9,7 @@ import os
 import shutil
 from pathlib import Path
 
-__version__ = "1.1.20"
+__version__ = "1.1.21"
 
 log = logging.getLogger(__name__)
 

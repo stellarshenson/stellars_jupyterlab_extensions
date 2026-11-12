@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Reconstructed from the repository history on 2026-10-26. Releases before 1.0.41 have no record in this repository. Versions whose only change was a publish or metadata bump, with no change to the dependency list, are listed as Publish.
 
+## [1.1.21] - 2026-11-12
+
+### Removed
+
+- The dependency on `jupyterlab_drag_and_drop_path_extension`, retired after `jupyterlab_advanced_file_browser_extension` 1.0.4 took over drag-and-drop path insertion
+
 ## [1.1.20] - 2026-11-12
 
 ### Changed
