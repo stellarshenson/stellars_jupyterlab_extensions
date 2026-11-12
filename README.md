@@ -38,8 +38,6 @@ At server start, this metapackage copies saved settings from the old folder of e
 - **[jupyterlab_edit_markdown_at_content_extension](https://github.com/stellarshenson/jupyterlab_edit_markdown_at_content_extension)** - Jump from rendered markdown preview into the editor at the exact line you were reading
 - **[jupyterlab_export_markdown_extension](https://github.com/stellarshenson/jupyterlab_export_markdown_extension)** - Export markdown to PDF, DOCX, and HTML
 - **[jupyterlab_export_svg_as_png_extension](https://github.com/stellarshenson/jupyterlab_export_svg_as_png_extension)** - Copy or export SVG graphics as high-quality PNG with configurable DPI and theme-aware rendering
-- **[jupyterlab_file_browser_sorting_extension](https://github.com/stellarshenson/jupyterlab_file_browser_sorting_extension)** - LC_COLLATE=C (ASCIIbetical) sorting for file browser
-- **[jupyterlab_fit_image_size_extension](https://github.com/stellarshenson/jupyterlab_fit_image_size_extension)** - Auto-scale images to fit view while preserving original size for smaller images
 - **[jupyterlab_fold_all_code_extension](https://github.com/stellarshenson/jupyterlab_fold_all_code_extension)** - Fold/unfold all code cells in notebooks
 - **[jupyterlab_git_syntax_extension](https://github.com/stellarshenson/jupyterlab_git_syntax_extension)** - Syntax highlighting for git configuration files (.gitignore, .gitmodules, .gitattributes, .gitconfig)
 - **[jupyterlab_github_markdown_alerts_extension](https://github.com/stellarshenson/jupyterlab_github_markdown_alerts_extension)** - GitHub-style alert blocks in Markdown
@@ -49,7 +47,6 @@ At server start, this metapackage copies saved settings from the old folder of e
 - **[jupyterlab_makefile_file_type_extension](https://github.com/stellarshenson/jupyterlab_makefile_file_type_extension)** - Makefile syntax highlighting and file type registration
 - **[jupyterlab_markdown_insert_content_extension](https://github.com/stellarshenson/jupyterlab_markdown_insert_content_extension)** - Insert reusable content blocks with auto TOC generation
 - **[jupyterlab_notifications_extension](https://github.com/stellarshenson/jupyterlab_notifications_extension)** - Secure API endpoint for JupyterLab notifications
-- **[jupyterlab_open_in_terminal_extension](https://github.com/stellarshenson/jupyterlab_open_in_terminal_extension)** - Open folder in terminal via file browser context menu
 - **[jupyterlab_passkey_extension](https://github.com/stellarshenson/jupyterlab_passkey_extension)** - Generic WebAuthn bridge exposing the browser's passkey to terminal and CLI clients on the Jupyter server
 - **[jupyterlab_paste_content_as_markdown_extension](https://github.com/stellarshenson/jupyterlab_paste_content_as_markdown_extension)** - Paste clipboard content as markdown, converting HTML from web pages and documents
 - **[jupyterlab_proxy_launcher_command_extension](https://github.com/stellarshenson/jupyterlab_proxy_launcher_command_extension)** - Launch jupyter-server-proxy via modal dialog

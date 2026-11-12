@@ -15,7 +15,7 @@ This file extends workspace-level configuration with project-specific rules.
 - Hatchling build system
 - PyPI distribution
 
-**Package Dependencies** (30 Stellars extensions):
+**Package Dependencies** (27 Stellars extensions):
 - jupyterlab_branding_extension
 - jupyterlab_camunda_modeller_extension
 - jupyterlab_colourful_tab_extension
@@ -23,8 +23,6 @@ This file extends workspace-level configuration with project-specific rules.
 - jupyterlab_doc_reader_extension
 - jupyterlab_drawio_render_extension
 - jupyterlab_export_markdown_extension
-- jupyterlab_file_browser_sorting_extension
-- jupyterlab_fit_image_size_extension
 - jupyterlab_fold_all_code_extension
 - jupyterlab_git_syntax_extension
 - jupyterlab_github_markdown_alerts_extension
@@ -35,7 +33,6 @@ This file extends workspace-level configuration with project-specific rules.
 - jupyterlab_markdown_insert_content_extension
 - jupyterlab_mmd_to_png_extension
 - jupyterlab_notifications_extension
-- jupyterlab_open_in_terminal_extension
 - jupyterlab_paste_content_as_markdown_extension
 - jupyterlab_proxy_launcher_command_extension
 - jupyterlab_refresh_view_extension
